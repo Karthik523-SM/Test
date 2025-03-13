@@ -100,8 +100,11 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 📧 **Project Maintainers:**  
 - **Karthik Marupaka** (Scrum Master)  
 - **Product Owner:** [Damilola Majekodunmi]  
-- **Team Members:** [Visakan Nambirajan], [Nandini Thimmireddy Gari
-]  
+- **Team Members:** [Visakan Nambirajan - Pod Captain],
+- [Nandini Thimmireddy Gari]
+- [Soham Sonar]
+- [Midhun Lakshmanasamy Nirmala]
+- [Srikanth Peethani]  
 
 📌 **Project Links:**  
 - 🔗 **XTTS Reports**  
