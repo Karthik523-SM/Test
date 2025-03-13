@@ -1,59 +1,108 @@
 # **vosyncore-ttsfinetuning**  
 
-Fine-tuning Text-to-Speech (TTS) models for improved voice synthesis performance.  
+AI-driven project for high-quality voice synthesis using fine-tuned XTTS and RVC models.  
 
 ## **Table of Contents**  
 - [Overview](#overview)  
 - [Features](#features)  
-- [Installation](#installation)  
+- [Getting Started](#getting-started)  
+  - [Prerequisites](#prerequisites)  
+  - [Installation](#installation)  
 - [Usage](#usage)  
 - [Contributing](#contributing)  
 - [License](#license)  
 - [Contact](#contact)  
 
 ## **Overview**  
-**vosyncore-ttsfinetuning** is a repository for fine-tuning Text-to-Speech (TTS) models. It provides tools and scripts for training, evaluating, and optimizing TTS models to generate high-quality synthesized speech.  
+**vosyncore-ttsfinetuning** is an advanced **AI-driven voice cloning** project. It fine-tunes the **XTTS model** for high-quality text-to-speech (TTS) synthesis and trains the **Retrieval-based Voice Conversion (RVC) model** to generate natural, expressive, and customizable voices.  
 
 ## **Features**  
-- Preprocessing scripts for audio and text datasets  
-- Model training and fine-tuning workflows  
-- Evaluation metrics for synthesized speech quality  
-- Easy-to-use inference scripts for generating speech  
+- 🎤 **XTTS Model:** Fine-tuned for high-quality text-to-speech synthesis.  
+- 🔄 **RVC Model:** Enables voice conversion to replicate specific speaker characteristics.  
+- 🚀 **AI-driven voice cloning** for realistic and expressive speech synthesis.  
+- 📊 **Sprint-based development** following Agile methodologies.  
+- 📝 **Comprehensive documentation** for developers and stakeholders.  
 
-## **Installation**  
+## **Getting Started**  
+
+### **Prerequisites**  
+Ensure the following dependencies are installed before running the project:  
+- Python 3.8+  
+- PyTorch  
+- CUDA (for GPU acceleration)  
+- TensorFlow  
+- ffmpeg  
+- Git  
+
+### **Installation**  
 Clone the repository:  
 ```bash
 git clone https://github.com/your-username/vosyncore-ttsfinetuning.git
 cd vosyncore-ttsfinetuning
 ```  
+
+Create a virtual environment (optional but recommended):  
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+```  
+
 Install dependencies:  
 ```bash
 pip install -r requirements.txt
 ```  
 
+Set up XTTS and RVC models:  
+Follow the **TTS Architecture Guide** for detailed model setup instructions.  
+
 ## **Usage**  
-### **Training the Model**  
+
+Run the **XTTS model** for voice synthesis:  
 ```bash
-python train.py --config config.yaml
+python xtts_generate.py --input text.txt --output voice.wav
 ```  
 
-### **Generating Speech**  
+Run the **RVC model** for voice conversion:  
 ```bash
-python inference.py --input "Hello, world!" --output output.wav
+python rvc_convert.py --input input_voice.wav --speaker_model model.pth --output cloned_voice.wav
 ```  
+
+Test the setup:  
+```bash
+python test_pipeline.py
+```  
+
+🎯 **Example Output:**  
+After running the commands, the output file (`voice.wav`) will contain the synthesized voice based on the input text.  
 
 ## **Contributing**  
-Contributions are welcome! Please follow these steps:  
-1. Fork the repository  
-2. Create a new branch (`feature-branch`)  
-3. Commit your changes  
-4. Push to your branch  
-5. Open a pull request  
+We welcome contributions from the community! 🚀  
+
+### **Steps to Contribute:**  
+1. Fork the repository and create a new branch:  
+   ```bash
+   git checkout -b feature-new-feature
+   ```  
+2. Make changes, commit, and push:  
+   ```bash
+   git commit -m "Added a new feature"
+   git push origin feature-new-feature
+   ```  
+3. Create a **Pull Request (PR)** on GitHub.  
+
+For detailed contribution guidelines, refer to our **Contributing Guide**.  
 
 ## **License**  
-This project is licensed under the [MIT License](LICENSE).  
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.  
 
 ## **Contact**  
-For questions or collaboration, reach out via:  
-📧 Email: [your-email@example.com](mailto:your-email@example.com)  
-🔗 GitHub Issues: [vosyncore-ttsfinetuning Issues](https://github.com/your-username/vosyncore-ttsfinetuning/issues)  
+
+📧 **Project Maintainers:**  
+- **Karthik Marupaka** (Scrum Master)  
+- **Product Owner:** [Your Name]  
+- **Team Members:** [Full list in the documentation]  
+
+📌 **Project Links:**  
+- 🔗 **XTTS Reports**  
+- 🔗 **RVC Reports**  
+- 🔗 **TTS Architecture**
