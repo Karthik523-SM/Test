@@ -1,9 +1,5 @@
 # 🚀 **vosyncore-ttsfinetuning**  
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
-[![AI-Powered](https://img.shields.io/badge/AI-Powered-brightgreen)](https://github.com/your-username/vosyncore-ttsfinetuning)  
-
+ 
 > **AI-driven high-quality voice synthesis using fine-tuned XTTS and RVC models.** 🎙️🔊
 
 ---  
@@ -105,6 +101,8 @@ We welcome contributions from the community! 🚀
    git push origin feature-new-feature  
    ```  
 3. Create a **Pull Request (PR)** on GitHub.  
+
+📌 **Note:** Only **Pod Captain Visakan Nambirajan** has permission to push the code into GitHub for the **Eclipse Pod**.  
 
 For detailed contribution guidelines, refer to our **Contributing Guide**.  
 
