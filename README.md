@@ -99,7 +99,7 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 📧 **Project Maintainers:**  
 - **Karthik Marupaka** (Scrum Master)  
-- **Product Owner:** [Your Name]  
+- **Product Owner:** [Damilola Majekodunmi]  
 - **Team Members:** [Full list in the documentation]  
 
 📌 **Project Links:**  
