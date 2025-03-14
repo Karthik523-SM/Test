@@ -35,12 +35,14 @@
 
 ### 🔹 **Prerequisites**  
 Ensure the following dependencies are installed before running the project:  
-- 🐍 Python 3.8+  
-- 🔥 PyTorch  
-- 🎮 CUDA (for GPU acceleration)  
-- 🤖 TensorFlow  
-- 🎼 ffmpeg  
-- 🔗 Git  
+-  
+- 🐍🔥 Python (Pytorch)  
+- 🎮 GCP (Google Cloud Platform)  
+- 🤖 Kubernetes  
+- 🎼 Docker  
+- 🔗 HuggingFace APIs
+-  NVIDIA Cloud GPUs
+-  Coqui
 
 ### 🔹 **Installation**  
 Clone the repository:  
