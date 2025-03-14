@@ -1,4 +1,3 @@
-```markdown
 # 🚀 vosyncore-ttsfinetuning  
 AI-driven high-quality voice synthesis using fine-tuned **XTTS** and **RVC** models. 🎙️🔊  
 
